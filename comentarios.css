@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+* {
+    margin: 0;
+    /*Remove todas as margens do nosso documento HTML*/
+    padding: 0;
+    /*Remove todo o espaçamento interno dos elementos*/
+    background: black;
+    /*Define a cor de fundo do documento inteiro como preto*/
+    list-style: none;
+    /*Remove qualquer estilização das listas;Exemplo: Remove as bolinhas por padrão*/
+    text-decoration: none;
+    /*Remove o sublinhado dos links*/
+    cursor: url('http://www.rw-designer.com/cursor-view/63179.png'), auto;
+
+}
+
+#Banner {
+    background-image: url('./mapa.png');
+    width: 100%;
+    height: 2363px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    height: 210px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+#Home:hover {
+    color: #740001;
+    font-size: 22px;
+}
+
+#Comments:hover {
+    color: #1a472a;
+    font-size: 22px;
+}
+
+#Photos:hover {
+    color: #0e1a40;
+    font-size: 22px;
+}
+
+#Contact:hover {
+    color: #ecb939;
+    font-size: 22px;
+}
+
+span {
+    color: #fff;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FooterNav {
+    display: none;
+}
+
+.FooterList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#LogoFooter {
+    width: 150px;
+    height: auto;
+ }

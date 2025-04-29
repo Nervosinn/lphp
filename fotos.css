@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    /*Remove todas as margens do nosso documento HTML*/
+    padding: 0;
+    /*Remove todo o espaçamento interno dos elementos*/
+    background: black;
+    /*Define a cor de fundo do documento inteiro como preto*/
+    list-style: none;
+    /*Remove qualquer estilização das listas;Exemplo: Remove as bolinhas por padrão*/
+    text-decoration: none;
+    /*Remove o sublinhado dos links*/
+    cursor: url('http://www.rw-designer.com/cursor-view/63179.png'), auto;
+
+}
+
+header {
+    height: 210px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+#Home:hover {
+    color: #740001;
+    font-size: 22px;
+}
+
+#Comments:hover {
+    color: #1a472a;
+    font-size: 22px;
+}
+
+#Photos:hover {
+    color: #0e1a40;
+    font-size: 22px;
+}
+
+#Contact:hover {
+    color: #ecb939;
+    font-size: 22px;
+}
+
+.ActorCardsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.CardsContent {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.Card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.Card video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.Card:hover {
+    transform: scale(1.05);
+    /*Aumenta o tamanho do card quando o mouse passa por cima*/
+    box-shadow: 0 0 20px #fff;
+}
+
+
+.Banner5 {
+    background-image: url('https://i.pinimg.com/originals/0f/20/78/0f2078c6e80b1cd28e02dd2ded4357c9.gif');
+}
+
+.Banner6 {
+    color: #000;
+    background-image: url('https://i.pinimg.com/originals/a2/6c/aa/a26caacc25e60f437971a2504ac11d12.gif');
+}
+
+.Banner7 {
+    background-image: url('https://i.pinimg.com/originals/00/eb/d6/00ebd66c990b681abdef1ead0879ee23.gif');
+}
+
+.Banner8 {
+    background-image: url('https://i.pinimg.com/originals/4c/a0/2d/4ca02d4bdf7e6adab39d407041a5bdfe.gif');
+}
+
+.Banner9 {
+    background-image: url('https://i.pinimg.com/originals/f8/bf/51/f8bf511b607525063f9f9fa1b4768b24.gif');
+}
+
+span {
+    color: #fff;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FooterNav {
+    display: none;
+}
+
+.FooterList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#LogoFooter {
+    width: 150px;
+    height: auto;
+ }
