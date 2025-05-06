@@ -21,24 +21,24 @@
  }
 
 
-header {
+Header {
     height: 210px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-nav {
+Nav {
     width: 60%;
 }
 
-ul {
+Ul {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-li {
+Li {
     list-style: none;
     color: aliceblue;
     cursor: pointer;
@@ -180,7 +180,7 @@ li {
     background-image: url('https://i.pinimg.com/originals/ec/1b/10/ec1b10ff6007fe09e8db2084118fcebc.jpg');
 }
 
-footer {
+Footer {
     height: 300px;
     margin-top: 50px;
     display: flex;
@@ -189,7 +189,7 @@ footer {
     justify-content: space-around;
 }
 
-span {
+Span {
     color: #fff;
     font-family: "Kdam Thmor Pro", sans-serif;
 }
@@ -206,7 +206,7 @@ span {
 
 @media(max-width: 768px)
 {
-    nav {
+    Nav {
         display: none;
     }
 
